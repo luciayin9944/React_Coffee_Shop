@@ -10,5 +10,5 @@ function CoffeeCard({ coffee }) {
     </div>
   )
 }
-
 export default CoffeeCard
+

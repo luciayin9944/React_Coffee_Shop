@@ -7,6 +7,24 @@
       "phone_number": "555-5555"
     }
   ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Location 1"
+    },
+    {
+      "id": 2,
+      "name": "Location 2"
+    },
+    {
+      "id": 3,
+      "name": "Location 3"
+    },
+    {
+      "id": 4,
+      "name": "Location 4"
+    }
+  ],
   "coffees": [
     {
       "id": 1,
@@ -63,6 +81,16 @@
       "locations": [
         3,
         4
+      ]
+    },
+    {
+      "id": "70b4",
+      "name": "Mike",
+      "description": "NOT coffee",
+      "origin": "mmmmmm",
+      "price": 1,
+      "locations": [
+        1
       ]
     }
   ]
