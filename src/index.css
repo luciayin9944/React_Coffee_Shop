@@ -1,0 +1,98 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #2a2928;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #2a2928;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #a17f5c;
+  padding: 1rem;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  text-decoration: underline;
+}
+
+.home {
+  text-align: center;
+}
+
+.shop {
+  display: flex;
+  padding: 1rem;
+}
+
+.location-list {
+  width: 200px;
+  padding: 1rem;
+  background-color: #a17f5c;
+}
+
+.coffee-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+  flex: 1;
+  padding: 1rem;
+}
+
+.coffee-card {
+  background-color: #d4d4d4;
+  color: #000;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.coffee-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  background-color: #a17f5c;
+  padding: 2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+.coffee-form input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+}
+
+.coffee-form textarea {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  width: 30;
+}
