@@ -83,7 +83,6 @@ function AdminPortal({ coffees, setCoffees, locations }) {
     )
 }
 
-
 export default AdminPortal;
 
 
