@@ -1,12 +1,19 @@
-# React + Vite
+# ☕ Coffee R Us - E-commerce Admin Portal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Coffee R Us is a simple, responsive e-commerce admin portal built with React. It allows administrators to manage a coffee shop catalog through a clean UI and intuitive navigation.
 
-Currently, two official plugins are available:
+## Features
+	•	🏠 Landing Page – A homepage introducing the store.
+	•	🛍️ Shop Page – Displays all coffee products with descriptions, origin, and pricing.
+	•	➕ Admin Form – Add new coffee products via a form.
+	•	🔍 Dynamic Search – Filter products by location.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/luciayin9944/React_Coffee_Shop.git 
+cd React_Coffee_Shop  
+npm install
+npm install react-router-dom@6
+npm run server 
+npm run dev 
